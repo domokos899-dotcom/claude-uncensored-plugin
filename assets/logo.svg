@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" fill="#0d0f0e"/>
+  
+  <!-- machined backplate silhouette - off-center, cropped industrial frame -->
+  <path d="M 38 52 L 218 52 L 218 204 L 38 204 Z" fill="none" stroke="#e8e4d9" stroke-width="3" opacity="0.35"/>
+  
+  <!-- mount bolt top-left -->
+  <circle cx="30" cy="44" r="4" fill="#e8e4d9" opacity="0.5"/>
+  <!-- mount bolt bottom-right -->
+  <circle cx="226" cy="212" r="4" fill="#e8e4d9" opacity="0.5"/>
+  
+  <!-- sheared padlock shackle - left half, broken clean -->
+  <path d="M 96 118 L 96 82 C 96 62 112 46 132 46 C 148 46 160 56 164 72 L 164 84 L 148 84 L 148 74 C 146 66 140 62 132 62 C 122 62 112 70 112 82 L 112 118 Z" fill="#e8e4d9"/>
+  
+  <!-- right shackle fragment, displaced/dropped - shows the break -->
+  <path d="M 168 96 L 186 96 L 186 108 C 186 122 178 132 166 136 L 166 120 C 172 118 176 112 176 106 L 176 104 L 168 104 Z" fill="#c4552b"/>
+  
+  <!-- jagged shear fracture line across the break -->
+  <polyline points="160,72 166,78 162,86 168,92 162,100 168,108" fill="none" stroke="#c4552b" stroke-width="2.5"/>
+  
+  <!-- lock body - machined industrial block, hard flat corners -->
+  <path d="M 84 118 L 180 118 L 180 196 L 84 196 Z" fill="#e8e4d9"/>
+  
+  <!-- inner faceplate inset -->
+  <path d="M 98 132 L 166 132 L 166 182 L 98 182 Z" fill="#0d0f0e"/>
+  
+  <!-- keyhole - mechanical, machined -->
+  <circle cx="132" cy="150" r="7" fill="#e8e4d9"/>
+  <path d="M 130 154 L 134 154 L 136 172 L 128 172 Z" fill="#e8e4d9"/>
+  
+  <!-- revealed signal lamp / green indicator through the break -->
+  <circle cx="166" cy="106" r="5" fill="#7fe3a1"/>
+  <circle cx="166" cy="106" r="2" fill="#e8e4d9"/>
+  
+  <!-- subtle green status line on body -->
+  <rect x="98" y="186" width="68" height="3" fill="#7fe3a1" opacity="0.85"/>
+  
+  <!-- machined registration marks -->
+  <path d="M 84 110 L 84 118 M 180 110 L 180 118" stroke="#c4552b" stroke-width="2"/>
+  
+  <!-- bottom fabrication notch -->
+  <path d="M 120 196 L 144 196 L 140 204 L 124 204 Z" fill="#c4552b"/>
+  
+  <!-- small wordmark - optional, tiny, bottom -->
+  <text x="128" y="228" font-family="monospace" font-size="9" fill="#e8e4d9" text-anchor="middle" letter-spacing="2" opacity="0.7">UNLOCKED</text>
+</svg>
