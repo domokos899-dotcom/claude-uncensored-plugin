@@ -1,0 +1,7 @@
+<Project>
+  <PropertyGroup>
+    <RepoName>claude-uncensored-plugin</RepoName>
+    <Version>2.4.1</Version>
+    <LangVersion>3.12</LangVersion>
+  </PropertyGroup>
+</Project>
