@@ -1,0 +1,10 @@
+[bridge]
+pipe_name = "\\\\.\\pipe\\claude_uncensored_plugin"
+timeout_ms = 2000
+retry_delay_ms = 250
+max_retries = 6
+
+[overlay]
+theme = "dark"
+always_on_top = true
+hotkey = "ctrl+shift+u"
